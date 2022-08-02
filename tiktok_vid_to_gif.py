@@ -1,5 +1,4 @@
 import os
-import re
 import urllib.request
 from urllib.parse import parse_qs, urlparse
 from moviepy.editor import VideoFileClip
@@ -41,4 +40,3 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-
